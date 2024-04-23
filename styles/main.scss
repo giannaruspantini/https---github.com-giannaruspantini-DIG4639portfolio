@@ -1,0 +1,56 @@
+
+/* Import Variables and Mixins */
+@import 'variables';
+@import 'mixins';
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grid-item {
+    padding: 20px;
+}
+
+/* Header Styles */
+.header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+}
+
+/* Main Content Styles */
+.main-content {
+    background-color: #ecf0f1;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #2ecc71;
+    color: #fff;
+    text-align: center;
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (min-width: 600px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

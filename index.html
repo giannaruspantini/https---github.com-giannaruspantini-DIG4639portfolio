@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/variable.scss">
+    <link rel="stylesheet" href="styles/mixins.scss">
+
+    
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+
+    <title>My Portfolio</title>
+</head>
+<!-- Navigation -->
+<nav id="Navigation" class="d-flex bg-dark text-gold-light">
+    <ul class="d-flex">
+      <li><a href="">Home</a></li>
+      <li><a href=""> About</a></li>
+      <li><a href="">Contact</a></li>
+    </ul>
+    
+  </nav>
+  <!-- Header -->
+  <header id="Header" class="container">
+    <h1>
+      Gianna's Portfolio 
+    </h1>
+   
+  <div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <img src="assets/photos/todo.gif"  alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">To-Do App: Created login and registration screen using React and Expo. The App validates the users input when the user enters text. Registration adds username and password to local storage for login.
+                </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://github.com/giannaruspantini/dig4639-s24-react-giannaruspantini-main/tree/master/unit2/lab8" target="_blank" class="btn btn-sm btn-outline-secondary">View</a>                          </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <img src="assets/photos/exercise.gif"  alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">React Native Exercise App: Created a component named Home, that includes a FlatList of buttons that will navigate the user to the exercises, with each type represented by a pushing a screen using Navigation Stack. I included repetition exercises and a duration exercise screen.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://github.com/giannaruspantini/dig4639-s24-react-giannaruspantini-main/tree/master/unit2" target="_blank" class="btn btn-sm btn-outline-secondary">View</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <img src="assets/photos/flashcard.jpg"  alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text"> Flash Card App: Designed a native mobile application using Expo and React Native Elements that allows users to study flashcards. The application allows users to create, delete and edit flashcards and view them in a random order.
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://github.com/giannaruspantini/Exercise-App" target="_blank" class="btn btn-sm btn-outline-secondary">View</a>
+              </div>
+            </div>
+          </div>
+        </div>
+</div>
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <img src="assets/photos/quiz.gif"  alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text"> Quiz App: Created a React Native quiz app that accepts a list of questions and answers and renders them to the screen. It support three types of answers: True/False, Multiple Choice, and Multiple Answer. The summary screen should have a total score Text element, with testID "total". </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://github.com/giannaruspantini/Exercise-App" target="_blank" class="btn btn-sm btn-outline-secondary">View</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+  </header>
+
+
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <!--experiences-->
+    <section class="Explore">
+      <h1>My Experiences</h1>
+  
+      <div class="row">
+          <div class="row-col">
+              <button onclick="showDiscoverArtists"> 
+                  <H3> Design & Code Club</H3> </button> 
+              <p>Engaged in workshops and events to stay updated on the latest design and coding trends.
+              </p>    
+          </div>
+          <div class="row-col">
+              <button onclick="showEvolutionofJazz"> 
+                  <H3> Girls Who Code</H3> </button> 
+          <p> Contributed to community outreach initiatives to inspire more girls to pursue careers in technology.
+          </p>   
+          </div>
+          <div class="row-col">
+              <button onclick="showAboutJazz"> 
+                  <H3> Google Developer Student Club</H3> </button> 
+              <p> Explored Google technologies and platforms through hands-on projects and coding challenges.
+              </p>    
+      </div>
+  </section>
+    
+    
+    <!-- The future-->
+    <h3 class="text-lg">About Me</h3>
+    <p>
+      Hello! I'm Gianna Ruspantini, from Coral Springs, Florida. I am a creative, time punctual, dedicated, goal-oriented along with a high-energy level, honed communication skills, strong organizational skills, and meticulous attention to detail. After graduating, I will receive a bachelor of arts and hope to pursue a career in UX/UI design or web development. I am excited to contribute my skills and knowledge to the ever-evolving digital landscape. My journey at UCF is not just an academic pursuit; it is a transformative experience preparing me for a future to grow within the field.
+    </p>
+
+    <div class="d-flex">
+    </div>
+
+  </section>
+  <section id="Sign-up" class="container">
+   
+    <form class="form">
+      <h1 class="text-lg mb-3">Contact Me</h1>
+      <div class="input-group">
+        <label for="">Email </label>
+        <input type="email" placeholder="Enter your email address" />
+      </div>
+      <div class="input-group">
+        <label for="">Name </label>
+        <input type="text" placeholder="Enter your full name" />
+      </div>
+      <div class="input-group">
+        <label for="">Phone Number </label>
+        <input type="number" placeholder="(xxx)xxx-xxxx" />
+      </div>
+      <div class="input-group">
+      <button type="submit" class="btn btn-gold">Send</button>
+    </form>
+  </section>
